@@ -142,31 +142,31 @@ class C extends B
 		else if (level == 2)
 		{
 			System.out.println("\n What language is Linux based on? \n 1. C \n 2. JavaScript \n 3. Python \n 4. Swift \n Your answer:");
-			String a1 = scan.next();
+			int a1 = scan.next();
 
 			if(a1 == 1) {score += 10; rans += 1;}
 			else {score += 0; wans += 1;}
 
 			System.out.println("\n Who founded the Blu Ray disk storage format? \n 1. Microsoft \n 2. Google \n 3. Sony \n 4. Uber \n Your answer:");
-			String a2 = scan.next();
+			int a2 = scan.next();
 
 			if(a2 == 3) {score += 10; rans += 1;}
 			else {score += 0; wans += 1;}
 
 			System.out.println("\n Who is the CEO of Google? \n 1. Mark Zuckerberg  \n 2. Larry Page  \n 3. Sundar Pichai  \n 4. Sergey Brin \n Your answer:");
-			String a3 = scan.next();
+			int a3 = scan.next();
 
 			if(a3 == 3) {score += 10; rans += 1;}
 			else {score += 0; wans += 1;}
 
 			System.out.println("\n With respect to cryptography, what is Ceasar? \n 1. A salad dressing \n 2. A Roman ruler \n 3. A cipher \n 4. None of the above \n Your answer:");
-	 		String a4 = scan.next();
+	 		int a4 = scan.next();
 
 			if(a4 == 3) {score += 10;	rans += 1;}
 			else {score += 0; wans += 1;}
 
 			System.out.println("\n What does EV stand for? \n 1. Extreme Variance \n 2. Engagement Variable \n 3. Electronic Variety \n 4. Electric Vehicle \n Your answer:");
-			String a5 = scan.next();
+			int a5 = scan.next();
 
 			if(a5 == 4) {score += 10; rans += 1;}
 			else {score += 0; wans += 1;}
