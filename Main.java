@@ -193,7 +193,7 @@ class Main
  {
  	D run_quiz = new D();
 
- 	run_quiz.name();
+  run_quiz.name();
 	run_quiz.difficulty();
 	run_quiz.subject();
 	run_quiz.questions();
