@@ -176,7 +176,6 @@ class C extends B
  }
 }
 
-
 class D extends C
 {
  void total()
